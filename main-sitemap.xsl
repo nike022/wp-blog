@@ -11,10 +11,10 @@
 			<head>
 				<xsl:choose>
 					<xsl:when test="kml:kml">
-						<title>Locations Sitemap - 测试</title>
+						<title>Locations Sitemap - wordpress静态主题</title>
 					</xsl:when>
 					<xsl:otherwise>
-						<title>XML Sitemap - 测试</title>
+						<title>XML Sitemap - wordpress静态主题</title>
 					</xsl:otherwise>
 				</xsl:choose>
 				<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />

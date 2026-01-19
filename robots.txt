@@ -1,19 +1,5 @@
 User-agent: *
 Disallow: /wp-admin/
-Disallow: /wp-includes/
-Disallow: /wp-content/plugins/
-Disallow: /wp-content/themes/
-Disallow: /wp-login.php
-Disallow: /wp-register.php
-Disallow: /?s=
-Disallow: /search/
-Disallow: /author/
-Disallow: /feed/
-Disallow: */feed/
-Disallow: */trackback/
-Disallow: */attachment/
-Disallow: */embed/
+Allow: /wp-admin/admin-ajax.php
 
-Allow: /wp-content/uploads/
-
-Sitemap: https://88.ai888.uk/sitemap_index.xml
+Sitemap: https://gongju.808989.cn/sitemap_index.xml

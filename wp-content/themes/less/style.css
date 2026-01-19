@@ -17,6 +17,83 @@ html {
 }
 body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; }
 
+/*
+========================================
+WordPress 默认小工具样式优化
+========================================
+*/
+
+/* 分类小工具 */
+.widget_categories ul,
+.widget_archive ul,
+.widget_recent_entries ul,
+.widget_pages ul,
+.widget_meta ul,
+.widget_nav_menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.widget_categories li,
+.widget_archive li,
+.widget_recent_entries li,
+.widget_pages li,
+.widget_meta li,
+.widget_nav_menu li {
+    margin-bottom: 8px;
+    padding: 6px 0;
+    border-bottom: 1px dashed #e5e7eb;
+}
+
+.dark .widget_categories li,
+.dark .widget_archive li,
+.dark .widget_recent_entries li,
+.dark .widget_pages li,
+.dark .widget_meta li,
+.dark .widget_nav_menu li {
+    border-bottom-color: #374151;
+}
+
+.widget_categories li:last-child,
+.widget_archive li:last-child,
+.widget_recent_entries li:last-child,
+.widget_pages li:last-child,
+.widget_meta li:last-child,
+.widget_nav_menu li:last-child {
+    border-bottom: none;
+}
+
+.widget_categories a,
+.widget_archive a,
+.widget_recent_entries a,
+.widget_pages a,
+.widget_meta a,
+.widget_nav_menu a {
+    color: #374151;
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.2s;
+}
+
+.dark .widget_categories a,
+.dark .widget_archive a,
+.dark .widget_recent_entries a,
+.dark .widget_pages a,
+.dark .widget_meta a,
+.dark .widget_nav_menu a {
+    color: #e5e7eb;
+}
+
+.widget_categories a:hover,
+.widget_archive a:hover,
+.widget_recent_entries a:hover,
+.widget_pages a:hover,
+.widget_meta a:hover,
+.widget_nav_menu a:hover {
+    color: #3b5dce;
+}
+
 .line-clamp-2 {
     display: -webkit-box !important;
     -webkit-line-clamp: 2 !important;
